@@ -1,6 +1,6 @@
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
-import Container from './container/Container'
+import Container from './Container'
 import Logo from './Logo'
 import LogoutButton from './Header/LogoutButton'
 import RTE from "./RTE";
@@ -12,6 +12,10 @@ import PostCard from "./PostCard"
 import AuthLayout from "./AuthLayout"
 import Input from "postcss/lib/input";
 import Select from "./Select"
+import AllPosts from '../pages/AllPost'
+import AddPost from '../pages/AddPost'
+import EditPost from '../pages/EditPost'
+import Post from '../pages/Post'
 
 export {
     Header,
@@ -27,5 +31,10 @@ export {
     PostCard,
     AuthLayout,
     Input,
-    Select
+    Select,
+    AllPosts,
+    AddPost,
+    EditPost,
+    Post
+
 }
